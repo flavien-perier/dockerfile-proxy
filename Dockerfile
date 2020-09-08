@@ -19,7 +19,9 @@ RUN chown -R root:root /etc/squid && \
     sh /etc/squid/lists.sh && \
     chown squid:squid -R /etc/squid/lists && \
     chmod 440 -R /etc/squid/lists && \
-    rm /etc/squid/lists.sh
+    rm /etc/squid/lists.sh && \
+    chown root:root /root/start.sh && \
+    chmod 750 /root/start.sh
 
 VOLUME /var/squid/cache
 
