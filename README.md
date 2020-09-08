@@ -1,6 +1,6 @@
 # Dockerfile Proxy
 
-Dockerfile for ![Squid](https://github.com/squid-cache/squid) proxy.
+Dockerfile for [Squid](https://github.com/squid-cache/squid) proxy.
 
 ## Env variables
 
